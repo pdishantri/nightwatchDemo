@@ -1,0 +1,100 @@
+{
+  "uid" : "53a82103545454ad",
+  "name" : "mediacorplogin",
+  "fullName" : "mediacorplogin",
+  "historyId" : "cce4bddd1b17de746c1cecc5888ac307",
+  "time" : {
+    "start" : 1602759779996,
+    "stop" : 1602759785829,
+    "duration" : 5833
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "MediaCorp Login Page: Enter Username",
+      "time" : {
+        "start" : 1602759779999,
+        "stop" : 1602759783656,
+        "duration" : 3657
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Testing if the page title equals \u001B[0;33m'Log in | MediaCorp Core'\u001B[0m \u001B[0;90m(36ms)\u001B[0m",
+        "time" : {
+          "start" : 1602759779999,
+          "stop" : 1602759779999,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "MediaCorp Login Page: Enter Password",
+      "time" : {
+        "start" : 1602759779999,
+        "stop" : 1602759782175,
+        "duration" : 2176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b891dfb37a846008",
+      "name" : "Reported Result",
+      "source" : "b891dfb37a846008.json",
+      "type" : "application/json",
+      "size" : 2034
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Thu Oct 15 2020 16:32:59 GMT+0530 (India Standard Time)"
+  }, {
+    "name" : "tag",
+    "value" : "FIREFOX_81.0.1_19.6.0_"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Machine",
+    "value" : "FIREFOX_81.0.1_19.6.0_"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Thu Oct 15 2020 16:32:59 GMT+0530 (India Standard Time)", "FIREFOX_81.0.1_19.6.0_" ]
+  },
+  "source" : "53a82103545454ad.json",
+  "parameterValues" : [ "FIREFOX_81.0.1_19.6.0_" ]
+}

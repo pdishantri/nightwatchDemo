@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "children" : [ {
+        "name" : "function",
+        "uid" : "d8d04e8842cfc3a3",
+        "parentUid" : "666d1a31450af3ae8459f14f07f9a1b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602758491799,
+          "stop" : 1602758491799,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME_86.0.4240.80__" ]
+      }, {
+        "name" : "new",
+        "uid" : "fd4f6b4d08e7e459",
+        "parentUid" : "666d1a31450af3ae8459f14f07f9a1b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602758491803,
+          "stop" : 1602758497125,
+          "duration" : 5322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME_86.0.4240.80__" ]
+      }, {
+        "name" : "test",
+        "uid" : "908956212ff483c6",
+        "parentUid" : "666d1a31450af3ae8459f14f07f9a1b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602758491806,
+          "stop" : 1602758495634,
+          "duration" : 3828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME_86.0.4240.80__" ]
+      } ],
+      "uid" : "666d1a31450af3ae8459f14f07f9a1b4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

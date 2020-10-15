@@ -1,0 +1,147 @@
+{
+  "uid" : "4630b9b5a6e92784",
+  "name" : "google",
+  "fullName" : "google",
+  "historyId" : "8f28bc3acf12be2204013ce0b5fbcec8",
+  "time" : {
+    "start" : 1602758491805,
+    "stop" : 1602758502535,
+    "duration" : 10730
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Google Advance search",
+      "time" : {
+        "start" : 1602758491805,
+        "stop" : 1602758502535,
+        "duration" : 10730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Testing if the URL contains \u001B[0;33m'advanced_search'\u001B[0m \u001B[0;90m(15ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491805,
+          "stop" : 1602758491806,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if value of element \u001B[0;33m<#searchform [name=\"q\"]>\u001B[0m contains \u001B[0;33m'Nightwatch JS'\u001B[0m \u001B[0;90m(59ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491806,
+          "stop" : 1602758491806,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if element \u001B[0;33m<[class=\"hdtb-mn-hd hdtb-tsel\"]>\u001B[0m contains text \u001B[0;33m'English'\u001B[0m \u001B[0;90m(1169ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491806,
+          "stop" : 1602758491806,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if the URL contains \u001B[0;33m'Nightwatch'\u001B[0m \u001B[0;90m(10ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491806,
+          "stop" : 1602758491806,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if the URL contains \u001B[0;33m'JS'\u001B[0m \u001B[0;90m(209ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491806,
+          "stop" : 1602758491806,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4b5a28c84ea37114",
+      "name" : "Reported Result",
+      "source" : "4b5a28c84ea37114.json",
+      "type" : "application/json",
+      "size" : 3510
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Thu Oct 15 2020 16:11:31 GMT+0530 (India Standard Time)"
+  }, {
+    "name" : "tag",
+    "value" : "CHROME_86.0.4240.80__"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Machine",
+    "value" : "CHROME_86.0.4240.80__"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "CHROME_86.0.4240.80__", "Thu Oct 15 2020 16:11:31 GMT+0530 (India Standard Time)" ]
+  },
+  "source" : "4630b9b5a6e92784.json",
+  "parameterValues" : [ "CHROME_86.0.4240.80__" ]
+}

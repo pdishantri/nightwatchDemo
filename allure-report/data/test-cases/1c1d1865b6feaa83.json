@@ -1,0 +1,147 @@
+{
+  "uid" : "1c1d1865b6feaa83",
+  "name" : "test1",
+  "fullName" : "test1",
+  "historyId" : "64ff19dc9cdd59a3390102450751204e",
+  "time" : {
+    "start" : 1602758491811,
+    "stop" : 1602758499454,
+    "duration" : 7643
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Second Test",
+      "time" : {
+        "start" : 1602758491811,
+        "stop" : 1602758499454,
+        "duration" : 7643
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Element <body> was visible after 44 milliseconds.",
+        "time" : {
+          "start" : 1602758491811,
+          "stop" : 1602758491811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if the page title contains \u001B[0;33m'Ecosia'\u001B[0m \u001B[0;90m(13ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491811,
+          "stop" : 1602758491811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if element \u001B[0;33m<input[type=search]>\u001B[0m is visible \u001B[0;90m(50ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491811,
+          "stop" : 1602758491811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if element \u001B[0;33m<button[type=submit]>\u001B[0m is visible \u001B[0;90m(68ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491811,
+          "stop" : 1602758491811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Testing if element \u001B[0;33m<.mainline-results>\u001B[0m contains text \u001B[0;33m'Nightwatch.js'\u001B[0m \u001B[0;90m(224ms)\u001B[0m",
+        "time" : {
+          "start" : 1602758491811,
+          "stop" : 1602758491811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f9e90fd6e614dbb8",
+      "name" : "Reported Result",
+      "source" : "f9e90fd6e614dbb8.json",
+      "type" : "application/json",
+      "size" : 3151
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Thu Oct 15 2020 16:11:31 GMT+0530 (India Standard Time)"
+  }, {
+    "name" : "tag",
+    "value" : "CHROME_86.0.4240.80__"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Machine",
+    "value" : "CHROME_86.0.4240.80__"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "CHROME_86.0.4240.80__", "Thu Oct 15 2020 16:11:31 GMT+0530 (India Standard Time)" ]
+  },
+  "source" : "1c1d1865b6feaa83.json",
+  "parameterValues" : [ "CHROME_86.0.4240.80__" ]
+}
